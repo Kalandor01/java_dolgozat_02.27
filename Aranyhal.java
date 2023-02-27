@@ -1,13 +1,14 @@
 package java_test0227;
 
-import java.util.List;
+import java.util.HashMap;
+
 
 public class Aranyhal {
     
     private static final int KIVANSAGOKSZAMA = 3;
     
     private int kor;
-    private List<String> kivansagok;
+    private HashMap<String, Integer> kivansagok;
     private String kifogta;
 
     public Aranyhal(String kifogta) {
